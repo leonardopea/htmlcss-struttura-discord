@@ -16,6 +16,8 @@
     justify-content: center;
 }
 
+/* inizio prima riga */
+
 .container_prima_riga{
     background-color: rgb(134, 186, 224);
 }
@@ -36,4 +38,21 @@
     
 }
 
-/*  */
+/* fine prima riga */
+
+/* inizio seconda riga */
+
+.container_seconda_riga{
+    background-color: rgb(21, 19, 113);
+}
+
+.col-500{
+    width: calc(50%);
+    height: 250px;
+    background-color: rgb(233, 88, 163);
+    margin: 30px 0;
+    border: 1px dashed black;
+}
+
+
+/* fine seconda riga */
