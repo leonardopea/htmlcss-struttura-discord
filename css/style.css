@@ -49,7 +49,7 @@
 .col-500{
     width: calc(50%);
     height: 250px;
-    background-color: rgb(233, 88, 163);
+    background-color: rgb(195, 74, 158);
     margin: 30px 0;
     border: 1px dashed black;
 }
@@ -63,7 +63,7 @@
 }
 
 .col_terza_riga{        /* tutte le colonne della terza riga */
-    background-color: rgb(102, 88, 194);
+    background-color: rgb(64, 43, 202);
     height: 260px;
     border: 1px dashed black;
     margin: 30px 0px ;
@@ -72,8 +72,17 @@
 
 .col-250{
     width: calc(25%);
-    background-color: salmon;
+    background-color: rgb(215,172,117)
     
 }
 
 /* fine terza riga */
+
+/* inizio quarta riga */
+
+.container_quarta_riga{
+    background-color: rgba(217, 226, 233, 0.623);
+}
+
+
+/* fine quarta riga */
