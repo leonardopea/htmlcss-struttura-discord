@@ -5,7 +5,6 @@
 }
 
 .jumbotron{
-    background-color: #aeaecd;
     width: 100%;
     height: 2000px;
     
@@ -63,7 +62,7 @@
 }
 
 .col_terza_riga{        /* tutte le colonne della terza riga */
-    background-color: rgb(64, 43, 202);
+    background-color: rgb(64, 43, 202);     
     height: 260px;
     border: 1px dashed black;
     margin: 30px 0px ;
@@ -81,8 +80,21 @@
 /* inizio quarta riga */
 
 .container_quarta_riga{
-    background-color: rgba(217, 226, 233, 0.623);
+    background-color: rgba(74, 97, 115, 0.623);
 }
 
 
 /* fine quarta riga */
+
+/* inizio sesta riga */
+
+.col-625{
+    width: calc(62.5%);
+    height: 600px;
+    background-color: green;
+    margin: 30px;
+    border: 1px dashed black;
+}
+
+
+/* fine sesta riga */
