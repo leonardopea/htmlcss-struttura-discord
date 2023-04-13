@@ -24,7 +24,7 @@
 
 .col_prima_riga{        /* tutte le colonne della prima riga */
     background-color: orange;
-    height: 40px;
+    height: 30px;
     border: 1px dashed black;
     margin: 10px 0px ;
 
@@ -56,3 +56,24 @@
 
 
 /* fine seconda riga */
+
+/* inizio terza riga */
+.container_terza_riga{
+    background-color: rgb(217, 226, 233);
+}
+
+.col_terza_riga{        /* tutte le colonne della terza riga */
+    background-color: rgb(102, 88, 194);
+    height: 260px;
+    border: 1px dashed black;
+    margin: 30px 0px ;
+
+}
+
+.col-250{
+    width: calc(25%);
+    background-color: salmon;
+    
+}
+
+/* fine terza riga */
