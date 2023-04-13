@@ -23,7 +23,7 @@
 .col_prima_riga{        /* tutte le colonne della prima riga */
     background-color: orange;
     height: 30px;
-    border: 1px dashed black;
+    border: 2px dashed black;
     margin: 10px 0px ;
 
 }
@@ -41,15 +41,15 @@
 /* inizio seconda riga */
 
 .container_seconda_riga{
-    background-color: rgb(21, 19, 113);
+    background-color: rgb(35, 33, 147);
 }
 
 .col-500{
     width: calc(50%);
     height: 250px;
-    background-color: rgb(195, 74, 158);
+    background-color: rgb(232, 82, 187);
     margin: 30px 0;
-    border: 1px dashed black;
+    border: 2px dashed black;
 }
 
 
@@ -61,16 +61,16 @@
 }
 
 .col_terza_riga{        /* tutte le colonne della terza riga */
-    background-color: rgb(64, 43, 202);     
+    background-color: rgb(43, 120, 202);     
     height: 260px;
-    border: 1px dashed black;
+    border: 2px dashed black;
     margin: 30px 0px ;
 
 }
 
 .col-250{
     width: calc(25%);
-    background-color: rgb(215,172,117)
+    background-color: rgb(250,218,221)
     
 }
 
@@ -92,7 +92,7 @@
     height: 600px;
     background-color: green;
     margin: 30px;
-    border: 1px dashed black;
+    border: 2px dashed black;
 }
 
 
@@ -102,20 +102,20 @@
 
 .col-7{
     width: calc(17%);
-    background-color: aquamarine;
-    height: 200px;
+    background-color: #d46351 ;
+    height: 400px;
     margin-top: 20px;
-    border: 1px dashed black;
+    border: 2px dashed black;
 
 }
 
 .col-6{
     width: calc(11.3%);
-    height: 200px;
+    height: 400px;
     margin-top: 20px;
     margin-bottom: 20px;
-    background-color: rgb(123, 123, 48);
-    border: 1px dashed white
+    background-color: rgb(10, 147, 131);
+    border: 2px dashed white
 
 }
 
@@ -125,13 +125,42 @@ hr{
 
 
 .col-foot{
-    width: calc(62.5% / 2);
+    width: calc(62.5%);
     height:50px;
-    background-color: aqua;
+    background-color: rgb(47, 238, 200);
     margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .row-foot{
     display: flex;
     justify-content: center;
+}
+
+/* parte testuale */
+
+#logo{
+    padding-left: 5px;
+    padding-top: 4px;
+}
+
+#link{
+    text-align: center;
+    padding-top: 4px;
+}
+
+#login{
+    padding-top: 4px;
+    text-align: end;
+    padding-right: 5px;
+
+}
+
+.bottone{
+    margin: 10px 0px ;
+    padding: 5px 15px;
+    border: 2px dashed black;
+    background-color: #d58377;
 }
